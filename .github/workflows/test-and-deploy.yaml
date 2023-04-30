@@ -73,7 +73,7 @@ jobs:
         # can be more (like restarting pm2)
         script: |
           echo "cd to correct folder"
-          cd /var/www/demo-deploy-action
+          cd /var/demo-deploy-action
           echo "git pull"
           git pull
           echo "npm install"
